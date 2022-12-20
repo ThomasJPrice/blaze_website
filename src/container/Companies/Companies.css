@@ -1,0 +1,38 @@
+.companies__container {
+    margin-top: 60px;
+}
+
+.companies__container h1 {
+    margin-bottom: 38px;
+}
+
+.companies__list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+
+    padding: 24px 24.5px 24px 42.5px;
+}
+
+.companies__list img {
+    margin-right: 90px;
+}
+
+.companies__list img:last-child {
+    margin-right: 0;
+}
+
+@media screen and (max-width: 1100px) {
+    .companies__list {
+        flex-direction: column;
+    }
+
+    .companies__container h1 {
+        margin-bottom: 0;
+    }
+
+    .companies__list img {
+        margin: 20px 0;
+    }
+}

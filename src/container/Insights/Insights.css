@@ -1,0 +1,84 @@
+.insights__container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.insights-right img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.insights-left {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.insights__heading {
+    font-family: var(--font-base);
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 58px;
+    display: flex;
+    align-items: center;
+    letter-spacing: -1.92px;
+    color: var(--color-darkBlue);
+
+    margin-bottom: 33px;
+}
+
+.squiggle__insights {
+    margin-bottom: 38px;
+}
+
+.ticks__container {
+    margin-bottom: 48px;
+}
+
+.ticks__container {
+    display: flex;
+    flex-direction: column;
+}
+
+.tick {
+    display: flex;
+    align-items: center;
+
+    margin-bottom: 16px;
+}
+
+.tick img {
+    margin-right: 20px;
+}
+
+.tick p {
+    font-family: var(--font-base);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+
+    color: var(--color-darkBlue);
+}
+
+@media screen and (max-width: 1100px) {
+    .insights__container {
+        flex-direction: column;
+        margin: 0 2rem !important;
+    }
+
+    .insights-left button {
+        margin-bottom: 30px;
+    }
+
+}
+
+@media screen and (max-width: 650px) {
+    .insights__heading {
+        font-size: 35px;
+        line-height: 45px;
+    }
+}
